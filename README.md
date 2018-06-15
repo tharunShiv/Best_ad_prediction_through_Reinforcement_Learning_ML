@@ -10,12 +10,17 @@ We will use Re-inforcement learning to solve this problem ASAP. I have used UCB 
 
 ### Difference between the UCB and Thompsons Approach
 
-|------------------------------------------------------------|
-|  Upper-Confidence-Bound    |  Thompson's Approach          |
-|----------------------------|-------------------------------|
-| 1.Deterministic Algorithm  | 1. Probabilistic Algorithm    |
-|----------------------------|-------------------------------|
-| 2. Requires an update at   | 2. It can accomodate delayed  |
-|update round.               | feedback.                     |
-|                            |                               |
-|------------------------------------------------------------|
+| Upper-Confidence-Bound | Thompson's Approach|
+|:--------:| -------------:|
+| 1. Deterministic Algorithm| 1. Probabilistic Algorithm |
+|2. Requires an update at every round|2. It can accomodate delayed feedback.|
+|3. Slower Result in this case | 3. Faster result in this case |
+
+### How to run the code?
+Open the respective files and run the code, as easy as that
+
+### Which Algorithm gave the best result?
+Thompson's Algorithm did.
+
+### May I contribute?
+Yes. You may contribute other Algorithms, Datasets, modification in the existing methods used.
